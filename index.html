@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="app__wrapper">
+        <div class="top-line__wrapper">
+            <div class="title__wrapper">
+                <h1>
+                    Актуальное
+                </h1>
+            </div>
+            <div class="switch__wrapper">
+                <div class="rangebar__wrapper">
+                    <div class="range">
+                        <div class="range__width" id="rangeWidth"></div>
+                    </div>
+                </div>
+                <div class="buttons__wrapper">
+                    <div class="left-btn hover-btn" id="prevBtn">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="-0.5" y="0.5" width="59" height="59" transform="matrix(-1 0 0 1 59 0)" stroke="#C8D9FB"/>
+                            <path d="M35 20L25 30L35 40" stroke="#527CCD"/>
+                        </svg>
+                    </div>
+                    <div class="right-btn hover-btn" id="nextBtn">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="59" height="59" stroke="#C8D9FB"/>
+                            <path d="M25 20L35 30L25 40" stroke="#527CCD"/>
+                        </svg>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content__wrapper" id="contentLine">
+            <div class="item__wrapper">
+                <div class="image__wrapper">
+                    <img src="/public/Picture.png" alt="Превью элемента" height="160" width="220">
+                </div>
+                <div class="create-time__wrapper">
+                    <span>10.11.2020 г.</span>
+                </div>
+                <div class="text__wrapper">
+                    <div class="title__wrapper">
+                        <h2>Ким и Валерия Брейтбурги написали книгу про искусство</h2>
+                    </div>
+                    <div class="description__wrapper">
+                        <span>Работа над книгой велась более пяти лет, и действенные методики, описанные в ней, созданные в результате анализа и синтеза идей…</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item__wrapper">
+                <div class="image__wrapper">
+                    <img src="/public/Picture.png" alt="Превью элемента" height="160" width="220">
+                </div>
+                <div class="create-time__wrapper">
+                    <span>10.11.2020 г.</span>
+                </div>
+                <div class="text__wrapper">
+                    <div class="title__wrapper">
+                        <h2>Юрий Колокольников пытается спасти Землю в клипе «Космические силы»</h2>
+                    </div>
+                    <div class="description__wrapper">
+                        <span>Премьера клипа «Космические силы» группы «Мумий Тролль» состоялась 6 ноября 2020 года.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item__wrapper">
+                <div class="image__wrapper">
+                    <img src="/public/Picture.png" alt="Превью элемента" height="160" width="220">
+                </div>
+                <div class="create-time__wrapper">
+                    <span>10.11.2020 г.</span>
+                </div>
+                <div class="text__wrapper">
+                    <div class="title__wrapper">
+                        <h2>BTS получили четыре награды MTV EMA</h2>
+                    </div>
+                    <div class="description__wrapper">
+                        <span>
+                            BTS получили четыре награды MTV EMA
+                            27-я ежегодная церемония награждения MTV Europe Music Awards состоялась 8 ноября 2020 г.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="item__wrapper">
+                <div class="image__wrapper">
+                    <img src="/public/Picture.png" alt="Превью элемента" height="160" width="220">
+                </div>
+                <div class="create-time__wrapper">
+                    <span>10.11.2020 г.</span>
+                </div>
+                <div class="text__wrapper">
+                    <div class="title__wrapper">
+                        <h2>Открытие сезона «Ла Скала» отменено</h2>
+                    </div>
+                    <div class="description__wrapper">
+                        <span>Миланский театр La Scala отменил открытие сезона. Первый спектакль был назначен на 7 декабря — «Лючия ди Ламмермур».</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item__wrapper">
+                <div class="image__wrapper">
+                    <img src="/public/Picture.png" alt="Превью элемента" height="160" width="220">
+                </div>
+                <div class="create-time__wrapper">
+                    <span>10.11.2020 г.</span>
+                </div>
+                <div class="text__wrapper">
+                    <div class="title__wrapper">
+                        <h2>Ким и Валерия Брейтбурги написали книгу про искусство</h2>
+                    </div>
+                    <div class="description__wrapper">
+                        <span>Работа над книгой велась более пяти лет, и действенные методики, описанные в ней, созданные в результате анализа и синтеза идей…</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item__wrapper">
+                <div class="image__wrapper">
+                    <img src="/public/Picture.png" alt="Превью элемента" height="160" width="220">
+                </div>
+                <div class="create-time__wrapper">
+                    <span>10.11.2020 г.</span>
+                </div>
+                <div class="text__wrapper">
+                    <div class="title__wrapper">
+                        <h2>Юрий Колокольников пытается спасти Землю в клипе «Космические силы»</h2>
+                    </div>
+                    <div class="description__wrapper">
+                        <span>Премьера клипа «Космические силы» группы «Мумий Тролль» состоялась 6 ноября 2020 года.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item__wrapper">
+                <div class="image__wrapper">
+                    <img src="/public/Picture.png" alt="Превью элемента" height="160" width="220">
+                </div>
+                <div class="create-time__wrapper">
+                    <span>10.11.2020 г.</span>
+                </div>
+                <div class="text__wrapper">
+                    <div class="title__wrapper">
+                        <h2>BTS получили четыре награды MTV EMA</h2>
+                    </div>
+                    <div class="description__wrapper">
+                        <span>
+                            BTS получили четыре награды MTV EMA
+                            27-я ежегодная церемония награждения MTV Europe Music Awards состоялась 8 ноября 2020 г.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="item__wrapper">
+                <div class="image__wrapper">
+                    <img src="/public/Picture.png" alt="Превью элемента" height="160" width="220">
+                </div>
+                <div class="create-time__wrapper">
+                    <span>10.11.2020 г.</span>
+                </div>
+                <div class="text__wrapper">
+                    <div class="title__wrapper">
+                        <h2>Открытие сезона «Ла Скала» отменено</h2>
+                    </div>
+                    <div class="description__wrapper">
+                        <span>Миланский театр La Scala отменил открытие сезона. Первый спектакль был назначен на 7 декабря — «Лючия ди Ламмермур».</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
